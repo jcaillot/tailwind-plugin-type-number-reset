@@ -11,7 +11,7 @@ npm install -D tailwind-plugin-type-number-reset
 ```
 or
 ```shell
-yarn add --dev tailwind-plugin-type-number-reset
+yarn add -D tailwind-plugin-type-number-reset
 ```
 
 Then add the plugin to your tailwind.config.js file:
@@ -24,7 +24,7 @@ module.exports = {
     // ...
   },
   plugins: [
-    require('jcaillot/tailwind-plugin-type-number-reset'),
+    require('tailwind-plugin-type-number-reset'),
     // ...
   ],
 }
@@ -61,7 +61,13 @@ Firefox:
 ```
 
 Note: the field is still an input type number. The keyboard up and down arrows
-still allow incrementing the input value.
+still increment the input value.
+
+## How to run test
+
+```shell
+jest --coverage
+```
 
 ## Licence
 
