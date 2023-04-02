@@ -9,7 +9,7 @@ Install the plugin from npm:
 ```shell
 npm install -D tailwind-plugin-type-number-reset
 ```
-
+or
 ```shell
 yarn add --dev tailwind-plugin-type-number-reset
 ```
@@ -24,7 +24,7 @@ module.exports = {
     // ...
   },
   plugins: [
-    require('jcaillot/type-number-reset'),
+    require('jcaillot/tailwind-plugin-type-number-reset'),
     // ...
   ],
 }
@@ -65,7 +65,7 @@ still allow incrementing the input value.
 
 ## Licence
 
-This project is licensed under the [MIT License](/LICENSE).
+This project is licensed under the [MIT License](./LICENSE).
 
 ## Authors
 
